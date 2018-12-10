@@ -30,3 +30,6 @@ Tracking flags are set to manage a list of release critical bugs but also the bu
 
 ## Needinfo
 The needinfo? flag can be used to request more information from one of the actors involved in Bugzilla. E.g. a developer might request more information from the reporter of a bug, or a release manager might ask something to a developer.
+
+## Link between bugs and commits
+When a patch lands for a given bug, an automated bot submits a comment to the bug to note the commits that landed. See the VCS.md file for the opposite link (commit -> bug).
