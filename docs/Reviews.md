@@ -10,8 +10,7 @@ MozReview \[2\] is a fork of ReviewBoard which has recently been deprecated in f
 ## Phabricator
 Mozilla's suggested review tool, hosted at \[3\]. Lando \[4\] is the tool that helps landing Phabricator differentials into Mozilla's VCS.
 
-
 \[1\]: <https://bugzilla.mozilla.org/page.cgi?id=splinter/help.html>  
-\[2\]: <https://reviewboard.mozilla.org/>
-\[3\]: <https://phabricator.services.mozilla.com/>
+\[2\]: <https://reviewboard.mozilla.org/>  
+\[3\]: <https://phabricator.services.mozilla.com/>  
 \[4\]: <https://lando.services.mozilla.com/>
