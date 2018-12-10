@@ -30,5 +30,5 @@ a= is used when a patch has been uplifted to note who approved the patch.
 The link is not perfect unfortunately. E.g. it's not straightforward to go from one of the reviewers in the "r=" list and the users on Bugzilla. Also, users change names and email addresses from time to time, which makes the mapping harder.
 There is a .mailmap file \[2\] that might alleviate this problem somehow, but it is still not used so much.
 
-\[1\]: <https://wiki.mozilla.org/Tree_Rules>
+\[1\]: <https://wiki.mozilla.org/Tree_Rules>  
 \[2\]: <https://hg.mozilla.org/mozilla-central/file/tip/.mailmap>
