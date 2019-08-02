@@ -40,3 +40,6 @@ Evaluate clustering crashes using NLP techniques (stack trace being a sentence, 
 
 ### Detect abnormal changes between components
 Detect abnormal changes (e.g. using causal impact or something similar) between components (in # bugs, # lines of code, and other metrics). This can be useful to detect if something is suddenly going wrong e.g. after the release of a new feature.
+
+### Reinforcement learning for static analysis warnings
+Static analysis tools can have false positives. Using reinforcement learning, we could train an agent to figure out when a warning should be shown and when it should not be shown (using information from past warnings and how developers acted on them as positive/negative reward).
