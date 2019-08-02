@@ -43,3 +43,6 @@ Detect abnormal changes (e.g. using causal impact or something similar) between 
 
 ### Reinforcement learning for static analysis warnings
 Static analysis tools can have false positives. Using reinforcement learning, we could train an agent to figure out when a warning should be shown and when it should not be shown (using information from past warnings and how developers acted on them as positive/negative reward).
+
+### Reinforcement learning for test scheduling
+Using reinforcement learning, an agent could be trained to choose which tests to run given a patch. A useless choice (a test which does not fail) could be used as a negative reward, a good choice (a test which fails) could be used as a positive reward.
