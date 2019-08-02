@@ -24,6 +24,8 @@ Study the interactions between mentors and mentees in open source projects on re
 ### mozregression - Bisection for the masses
 Study the effects of mozregression usage by Mozilla contributors. Does mozregression reduce the amount of time to fix a bug?
 
+### Evaluate SZZ with manually annotated Bugzilla information
+We have recently introduced a "Regressed By" field on Bugzilla, to specify what caused a given bug. SZZ results could be evaluated by using this data, and a study of what kinds of bug-introducing commits are missed could be done (maybe finding ways to improve SZZ to catch these other kinds of bug-introducing commits).
 
 
 ## Tools
